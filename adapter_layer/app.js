@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 // routes
-app.use('/auth', authRoutes);
+app.use('/user', authRoutes);
 
 // start server
 app.listen(process.env.PORT || 9000, () => {
